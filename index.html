@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/header/menu_header.css">
+    <link rel="stylesheet" href="assets/css/header/small.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+
+
+
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 bg-primary">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="img/logos/logo_bbva_blanco.svg" alt="Logo">
+        </div>
+      </div>
+      <div class="col-9 bg-secondary">
+        <!-- Menú -->
+        <div class="menu_header">
+          <ul class="list-unstyled">
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactanos</a></li>
+            <li class="Obten_tu_Asesoria"><a href="#">Obtén tu Asesoría</a></li>
+            <li class="btn_Iniciar_sesion"><button>Iniciar sesión</button></li>
+          </ul>
+          <!-- Icono de búsqueda -->
+          <div class="search-icon" id="searchIcon">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-1 bg-success">
+        <!-- Servicios -->
+        <div class="services">
+          <p>Servicios</p>
+          <!-- Agrega aquí tus servicios -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Campo de búsqueda -->
+<div class="input_search search-box" id="searchBox">
+  <form action="#" method="GET">
+    <i class="fas fa-search "></i>
+    <input type="text" placeholder="Busque aquí" name="buscar">
+    <button type="button" class="close-button" id="closeSearch"><i class="fas fa-times"></i></button>
+
+  </form>
+</div>
+
+
+
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/js-principal.js"></script>
 </body>
 </html>
