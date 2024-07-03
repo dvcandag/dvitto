@@ -19,36 +19,33 @@
 
 
 <header class="header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2 bg-primary">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 ">
         <!-- Logo -->
         <div class="logo">
-          <img src="img/logos/logo_bbva_blanco.svg" alt="Logo">
-        </div>
-      </div>
-      <div class="col-9 ">
-        <!-- Menú -->
-        <div class="menu_header">
-          <ul class="list-unstyled">
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contactanos</a></li>
-            <li class="Obten_tu_Asesoria"><a href="#">Obtén tu Asesoría</a></li>
-            <li class="btn_Iniciar_sesion"><button>Iniciar sesión</button></li>
-          </ul>
-          <!-- Icono de búsqueda -->
-          <div class="search-icon" id="searchIcon">
-            <button class="search-button"><i class="fas fa-search"></i></button>
+            BBVA
           </div>
-        </div>
       </div>
-      <div class="col-1 bg-success">
-        <!-- Servicios -->
-        <div class="services">
-          <p>Servicios</p>
-          <!-- Agrega aquí tus servicios -->
-        </div>
-      </div>
+  <div class="col-md-9">
+  <!-- Menú -->
+  <div class="menu_header">
+    <ul class="list-unstyled">
+      <li><a href="#">Nosotros</a></li>
+      <li><a href="#">Contactanos</a></li>
+      <li class="Obten_tu_Asesoria"><a href="#">Obtén tu Asesoría</a></li>
+      <li class="btn_Iniciar_sesion"><button>Iniciar sesión</button></li>
+      <!-- Icono de búsqueda -->
+      <li>
+        <button class="search-button search-icon" id="searchIcon"><i class="fas fa-search"></i></button>
+      </li>
+      <!-- Icono de servicios -->
+      <li>
+        <p class="services">Servicios<i class="fas fa-bars"></i></p>
+      </li>
+    </ul>
+  </div>
+</div>    
     </div>
   </div>
 </header>
@@ -56,13 +53,57 @@
 <!-- Campo de búsqueda -->
 <div class="input_search search-box " id="searchBox">
   <form action="#" method="GET">
-    <i class="fas fa-search"></i>
+    <i class="search-button fas fa-search"></i>
     <input type="text" placeholder="Busque aquí" name="buscar">
     <button type="button" class="close-button" id="closeSearch"><i class="fas fa-times"></i></button>
   </form>
 </div>
 
 
+
+<!-- Icono de servicios -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Primera columna -->
+    <div class="col-md-8">
+      <div class="p-3 mb-2 bg-primary text-white">
+        Oportunidades
+
+      </div>
+    </div>
+   
+    <!-- Segunda columna -->
+       <div class="col-md-4">
+        <div class="p-3 mb-2 bg-secondary text-white">
+          
+          <ul class="list-unstyled">
+            <li class="title_servicios">Servicios</li>
+            <li>Branding</li>
+            <li>Diseño de Páginas Web</li>
+            <li>Páginas web ecommerce</li>
+            <li>Social Media</li>
+            <li>Marketing digital</li>
+            <li>Inversiones</li>
+            <li>Seguros</li>
+            <li class="divider"></li> <!-- Línea de separación -->
+            <li class="list-title">Sostenibilidad</li>
+            <li>Banca Privada</li>
+            <li>PRIME</li>
+            <li class="divider"></li> <!-- Línea de separación -->
+          <li><i class="fas fa-mobile-alt"></i> Servicios Digitales</li>
+
+            <li><i class="fas fa-map-marker-alt"></i> Ubícanos</li>
+            <li><i class="fas fa-shield-alt"></i> Tu seguridad</li>
+            <li><i class="fas fa-newspaper"></i> Nuestro Blog</li>
+           <li><i class="fas fa-book-open"></i> Libro de reclamaciones</li>
+
+            <li><i class="fas fa-microphone-alt"></i> Podcast</li>
+          </ul>
+        </div>
+      </div>
+   
+  </div>
+</div>
 
 
 
