@@ -4,25 +4,30 @@
   color: #ffffff; /* Color del texto */
   padding: 20px 10px; /* Espaciado interior: 20px arriba/abajo, 10px izquierda/derecha */
   position: relative; /* Posición relativa para alinear elementos absolutos */
+    font-size: 17px; /* Tamaño del icono */
+text-align: center;
+  height: 90px; /* Altura deseada para el header */
+
 }
+
 
 .header * {
   color: inherit; /* Hereda el color blanco para todos los elementos dentro de .header */
 
 }
 
-.logo {
-  display: block;
-  max-width: 18%; /* Ajusta según sea necesario */
-  height: auto; /* Permite que el logo mantenga su proporción */
-  margin: 0 auto; /* Centra el logo horizontalmente */
+ .logo {
+      font-size: 24px; /* Tamaño de fuente del logo */
+      font-weight: bold; /* Negrita para el logo */
+      color: #ffffff; /* Color del texto del logo */
+      padding: 5.28px  5.28px; 
+
+  /* Estilos para pantallas grandes */
+  width: 40%; /* Ancho máximo en pantallas grandes */
+  max-width: 300px; /* Máximo ancho permitido */
+  margin: 0 auto; /* Centrado horizontal */
 }
 
-@media (min-width: 768px) {
-  .logo {
-    max-width: 48%; /* Establece el ancho máximo en pantallas grandes */
-  }
-}
 
 
 .menu_header {
@@ -68,7 +73,7 @@
   background-color: #028484;
   color: #ffffff;
   border: none;
-  padding: 8px 20px;
+  padding: 12px 28px; 
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -107,7 +112,7 @@
 }
 
 .search-button:hover i {
-  color: #02C3B0; /* Cambio de color al pasar el mouse */
+  color: #ffffff; /* Cambio de color al pasar el mouse */
 }
 
 /* Estilos para la caja de búsqueda */
@@ -142,7 +147,7 @@
 }
 
 .input_search {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   background-color: #004481; /* Color del contenedor */
   padding: 0 30px; /* Ajusta el padding según tus necesidades */
@@ -150,39 +155,46 @@
   display: flex; /* Usar flexbox */
   align-items: center; /* Centrar verticalmente */
   justify-content: space-between; /* Espacio entre elementos */
+  text-align: center;
 }
 
-.input_search form {
-  display: flex; /* Usar flexbox en el formulario */
-  align-items: center; /* Centrar verticalmente los elementos dentro del formulario */
-  width: 100%; /* Asegurar que el formulario tome el 100% del contenedor */
-}
+
 
 .input_search input[type="text"] {
   width: 80%;
   padding: 10px;
   margin-right: 10px;
-  background-color: transparent; /* Fondo transparente para el campo de texto */
-  font-size: 14px;
+  background-color: transparent; 
+  font-size: 16px;
   color: #ffffff;
-  border: none; /* Elimina el borde del campo de texto */
-  outline: none; /* Elimina el borde de enfoque (resaltado al hacer clic) */
+  border: none; 
+  outline: none; 
 }
 
 .input_search input[type="text"]::placeholder {
-  color: #ffffff; /* Color del placeholder */
-  opacity: 0.7; /* Opacidad del placeholder */
-  font-size: 14px; /* Tamaño de fuente del placeholder */
+  color: #ffffff; 
+  opacity: 0.7; 
+  font-size: 16px; 
 }
 
-.input_search .close-button {
+ .close-button {
   background: none;
   border: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
-  padding: 10px; /* Asegurar que el botón de cierre tenga el mismo padding que otros elementos */
-  margin-left: 10px; /* Margen a la izquierda del botón de cierre */
+  padding: 10px; 
+  margin-left: 10px; 
 }
 
+.services {
+  vertical-align: middle; /* Centra verticalmente con respecto al elemento adyacente */
+  line-height: 0; /* Ajusta la altura de línea para centrar perfectamente */
+}
+
+.services i.fas.fa-bars {
+  font-size: 20px; /* Tamaño del icono */
+  vertical-align: middle; /* Centra verticalmente con respecto al texto */
+  padding-left: 5px; /* Espaciado a la izquierda para separar el ícono del texto */
+}
 
