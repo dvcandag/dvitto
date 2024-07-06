@@ -1,42 +1,29 @@
-     /* Estilos personalizados */
-        .menu_servicios {
-            background-color: #072146; /* Color de fondo del header */
-            color: #ffffff; /* Color del texto */
-            padding: 20px 10px; /* Espaciado interior: 20px arriba/abajo, 10px izquierda/derecha */
-            position: relative; /* Posición relativa para alinear elementos absolutos */
-            height: 400px; /* Ajusta la altura según tus necesidades */
-            overflow-y: scroll; /* Habilita el scroll vertical */
-        }
+/* Estilos personalizados para primer ul */
+.menu_servicios {
+    background-color: #072146; /* Color de fondo del header */
+    padding: 15px 10px; /* Espaciado interior: 15px arriba/abajo, 10px izquierda/derecha */
+    position: relative; /* Posición relativa para alinear elementos absolutos */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    overflow-y: scroll; /* Habilita el scroll vertical */
+}
 
-        .title_servicios {
-            font-weight: bold;
-            font-size: 20px; /* Tamaño de fuente de 20px */
-            margin-bottom: 10px;
-        }
+.title_servicios {
+    font-weight: bold !important;
+    font-size: 25px !important; /* Tamaño de fuente de 25px */
+    margin-bottom: 10px !important;
+    color: #ffffff !important; /* Color del texto */
+}
 
-        .divider {
-            border-top: 1px solid #fff;
-            margin: 10px 0;
-        }
+.divider {
+    border-top: 0.75px solid #778892;
+    margin: 20px 0; /* Espaciado: 20px arriba/abajo, 0px izquierda/derecha */
+    width: 60%; /* Ajusta el ancho de la línea según tus necesidades */
+}
 
-        .list-title {
-            font-weight: bold;
-            margin-top: 10px;
-        }
+.menu_servicios ul li {
+    margin-bottom: 10px; /* Espaciado vertical entre elementos */
+    position: relative; /* Posición relativa para contener el icono */
+    width: 80%; /* Ancho del 60% */
+}
 
-        .menu_servicios ul li {
-            margin-bottom: 10px; /* Espaciado vertical entre elementos */
-        }
 
-        .menu_servicios ul li:not(.divider):not(:first-child) {
-            font-size: 16px; /* Tamaño de fuente de 16px para los elementos listados sin iconos */
-        }
-
-        .menu_servicios ul li i {
-            font-size: 14px; /* Tamaño de fuente de 14px para los elementos con iconos */
-            margin-right: 5px; /* Espacio entre icono y texto */
-        }
-
-        .menu_servicios ul li i::before {
-            margin-right: 5px; /* Espacio entre icono y texto */
-        }
