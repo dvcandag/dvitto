@@ -1,0 +1,50 @@
+/* Estilos generales del footer */
+.footer {
+  background-color: #072146;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+/* Estilos para el texto general */
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  text-align: center;
+  background-color: #004481;
+  line-height: 30px; /* Alineación vertical del ícono */
+  margin-right: 0px;
+}
+
+.social-icons li a:hover {
+  background-color: #043263;
+}
+
+.social-icons li a i {
+  color: #ffffff;
+  font-size: 12px; /* Tamaño de fuente ajustado para íconos */
+}
+
+/* Estilos para el título de redes sociales */
+.social-media-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Reducción del espacio entre el título y los íconos */
+}
