@@ -51,7 +51,7 @@ text-align: center;
 
 .menu_header ul li a {
   text-decoration: none; /* Elimina el subrayado del enlace */
-  color: #626262; /* Color de texto inicial */
+  color: #778892; /* Color de texto inicial */
   /*font-weight: bold; /* Pone el texto en negrita */
   transition: color 0.3s; /* Transición suave para el cambio de color */
 }
