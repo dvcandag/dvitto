@@ -41,10 +41,10 @@
         <button class="search-button search-icon" id="searchIcon"><i class="fas fa-search"></i></button>
       </li>
       <!-- Icono de servicios -->
-      <li>
-        <p class="services">Servicios<i class="fas fa-bars"></i></p>
-      </li>
-    </ul>
+            <li id="servicesItem">
+              <p class="services">Servicios<i class="fas fa-bars"></i></p>
+            </li>
+        
   </div>
 </div>    
     </div>
@@ -73,7 +73,7 @@
         Oportunidades
       </div>
 
-<div class="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="carousel-content">
@@ -90,16 +90,8 @@
               <h3>Oportunidades 3</h3>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="carousel-content">
-              <h3>Oportunidades 4</h3>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-content">
-              <h3>Oportunidades 5</h3>
-            </div>
-          </div>
+         
+          
         </div>
   <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
   <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
@@ -154,7 +146,7 @@
       <div class="col-md-4">
         <!-- Información de contacto -->
         <p>Dirección: Av. ... 1234, Lima<br>
-          Teléfono: +51 999 999 999<br>
+          Teléfono: +51 999 999<br>
           Email: info@dvitto.com
         </p>
       </div>
@@ -179,7 +171,8 @@
 
 
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/input_search.js"></script>
+        <script src="assets/js/menu_servicios.js"></script>
+<script src="assets/js/input_search.js"></script>
     <script src="assets/js/carousel_oportunidades.js"></script>
 </body>
 </html>
