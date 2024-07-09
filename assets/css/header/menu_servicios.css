@@ -1,4 +1,4 @@
-/* Estilos personalizados para primer ul */
+/* Estilos personalizados */
 .menu_servicios {
     background-color: #072146; /* Color de fondo del header */
     padding: 15px 10px; /* Espaciado interior: 15px arriba/abajo, 10px izquierda/derecha */
@@ -7,16 +7,27 @@
     overflow-y: scroll; /* Habilita el scroll vertical */
 }
 
+.menu_servicios a {
+    text-decoration: none; /* Quitar el subrayado de todos los enlaces dentro de .menu_servicios */
+    color: inherit; /* Heredar el color del texto del elemento padre */
+}
+
+.menu_servicios a:hover {
+    text-decoration: none; /* Quitar el subrayado al hacer hover */
+    color: #ffffff; /* Cambiar el color del texto al hacer hover */
+}
+
+
 .title_servicios {
     font-weight: bold !important;
-    font-size: 25px !important; /* Tamaño de fuente de 25px */
+    font-size: 20px !important; /* Tamaño de fuente de 25px */
     margin-bottom: 10px !important;
     color: #ffffff !important; /* Color del texto */
 }
 
 .divider {
-    border-top: 0.75px solid #778892;
-    margin: 20px 0; /* Espaciado: 20px arriba/abajo, 0px izquierda/derecha */
+    border-top: 0.7px solid #778892;
+    margin: 24px 0; /* Espaciado: 20px arriba/abajo, 0px izquierda/derecha */
     width: 60%; /* Ajusta el ancho de la línea según tus necesidades */
 }
 
@@ -30,7 +41,7 @@
 
 
 
-/* Estilos personalizados para primera ul */
+/* Estilos para primera ul */
 .menu_servicios ul.primera-ul li {
     position: relative; /* Posición relativa para el contenedor */
     padding-left: 0px; /* Espacio a la izquierda del texto para dar espacio al icono */
@@ -38,7 +49,7 @@
     font-size: 15px; /* Tamaño de fuente */
     color: #778892; /* Color de texto */
 }
-/* Estilos personalizados para primera ul */
+
 .menu_servicios ul.primera-ul li i {
     font-size: 12px; /* Tamaño de fuente de 15px para los iconos */
     position: absolute; /* Posición absoluta para el icono */
@@ -51,4 +62,68 @@
 
 
 
+
+/* Estilos para segundo ul */
+.menu_servicios ul.segunda-ul li {
+    position: relative; /* Posición relativa para el contenedor */
+    padding-left: 30px; /* Espacio a la izquierda del texto para dar espacio al icono */
+    margin-bottom: 10px; /* Espaciado vertical entre elementos */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #778892; /* Color de texto */
+}
+
+.menu_servicios ul.segunda-ul li i {
+    font-size: 15px; /* Tamaño de fuente de 15px para los iconos */
+    position: absolute; /* Posición absoluta para el icono */
+    left: 0; /* Posiciona el icono al borde izquierdo */
+    top: 50%; /* Centra el icono verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+    color: #778892; /* Color de texto */
+    margin-right: 10px; /* Espacio entre icono y texto */
+}
+
+
+/* Efecto hover para íconos y texto dentro de los elementos <li> de las listas <ul> */
+.menu_servicios ul.primera-ul li:hover,
+.menu_servicios ul.segunda-ul li:hover,
+.menu_servicios ul.primera-ul li:hover i,
+.menu_servicios ul.segunda-ul li:hover i {
+    cursor: pointer;
+    color: #ffffff; /* Color del texto al hacer hover */
+}
+
+
+
+.menu_servicios, .menu_oportunidades {
+  display: none; /* Ocultar las columnas inicialmente */
+}
+
+.active {
+  display: block !important; /* Mostrar la columna cuando esté activa */
+}
+
+.close-btn {
+  display: none; /* Ocultar el botón de cerrar inicialmente */
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.show-close-btn .close-btn {
+  display: block !important; /* Mostrar el botón de cerrar cuando esté activo */
+}
+
+.services {
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor: pointer;
+}
 
